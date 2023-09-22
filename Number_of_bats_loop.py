@@ -9,7 +9,7 @@ print(50*'=')
 
 print("\t\t\tBaseball Team Manager")
 print("MENU OPTIONS")
-print("1 - Calculate betting average")
+print("1 - Calculate batting average")
 print("2 - Exit program")
 
 print(50*"=")
@@ -20,9 +20,9 @@ while program_running:
     if menu == 1:
 
         number_of_bats = float(input("Official number of at bats: "))
-        hits = float(input("\nNumber of hits: "))
+        hits = float(input("Number of hits: "))
         batting_a = (hits / number_of_bats)
-        print("\nBatting average is: {:.3f}".format(batting_a))
+        print("Batting average is: {:.3f}\n".format(batting_a))
 
     elif menu == 2:
         program_running = False
